@@ -1,6 +1,6 @@
 import unittest
 from tests.base import assert_equal
-from newmath.string import contar_vocales, multiplicacion_vocales, porcentaje_vocales
+from newmath.string import contar_vocales
 
 class TestContarVocales(unittest.TestCase):
 

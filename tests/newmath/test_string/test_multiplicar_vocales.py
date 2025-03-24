@@ -1,6 +1,6 @@
 import unittest
 from tests.base import assert_equal
-from newmath.string import multiplicacion_vocales
+from newmath.test_string import multiplicacion_vocales
 
 class TestMultiplicacionVocales(unittest.TestCase):
 
