@@ -1,6 +1,6 @@
 import unittest
 from tests.base import assert_equal
-from newmath.test_porcentaje_vocal import porcentaje_vocales
+from tests.newmath.test_porcentaje_vocal import porcentaje_vocales
 
 class TestPorcentajeVocales(unittest.TestCase):
 

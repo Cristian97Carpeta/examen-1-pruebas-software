@@ -1,6 +1,6 @@
 import unittest
 from tests.base import assert_equal
-from newmath.test_multiplicador_factor import multiplicador_factor
+from tests.newmath.test_multiplicador_factor import multiplicador_factor
 
 class TestMultiplicadorFactor(unittest.TestCase):
 

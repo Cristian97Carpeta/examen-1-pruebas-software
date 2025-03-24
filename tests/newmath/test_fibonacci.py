@@ -1,6 +1,6 @@
 import unittest
 from tests.base import assert_equal
-from newmath.test_fibonacci import factor_fibonacci
+from tests.newmath.test_fibonacci import factor_fibonacci
 
 class TestFactorFibonacci(unittest.TestCase):
 
