@@ -28,7 +28,7 @@ def contar_vocales(text: str) -> int:
     20
     # Se cuentan las vocales en mayúsculas, minúsculas y las variantes acentuadas.
     """
-    vocales: str = "aeiouAEIOUáéíúÁÉÍÚ"
+    vocales: str = "aeiouAEIOUáéíóúÁÉÓÍÚ"
     contador: int = 0
     for char in text:
         if char in vocales:

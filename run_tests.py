@@ -1,4 +1,9 @@
-from tests.newmath import example
+from tests.newmath import example, test_factor, test_string
 
 example.test_deberia_saludar_a_mundo()
 example.test_deberia_saludar_a_una_persona()
+test_factor.test_deberia_resultado_factor()
+test_factor.test_deberia_resultado_fibonacci()
+test_string.test_deberia_contar_vocales()
+test_string.test_deberia_multiplicar_vocales()
+test_string.test_deberia_porcentaje_vocales()
