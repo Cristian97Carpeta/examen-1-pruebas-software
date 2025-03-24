@@ -2,6 +2,7 @@ import unittest
 from tests.base import assert_equal
 from newmath.string import contar_vocales
 
+
 class TestContarVocales(unittest.TestCase):
 
     # Escenario: Valores válidos
