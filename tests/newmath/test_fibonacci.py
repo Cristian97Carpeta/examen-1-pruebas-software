@@ -1,6 +1,6 @@
 import unittest
 from tests.base import assert_equal
-from newmath.factor import factor_fibonacci
+from newmath.test_fibonacci import factor_fibonacci
 
 class TestFactorFibonacci(unittest.TestCase):
 
@@ -39,7 +39,7 @@ class TestFactorFibonacci(unittest.TestCase):
         assert_equal(esperado, resultado, "test_factor_fibonacci_limite_3")
 
     # Escenario: Entradas inválidas
-    
+
     def test_factor_fibonacci_invalido_1(self):
         with self.assertRaises(ValueError):
             factor_fibonacci(0)
